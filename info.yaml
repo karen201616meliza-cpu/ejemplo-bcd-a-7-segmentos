@@ -2,7 +2,7 @@
 project:
   wokwi_id:     481589334061438977       # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "bcd a 7 segmentos k"      # Project title
-  author:       ""      # Your name
+  author:       "Karen"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "bcd 7 segmentos k"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
@@ -16,23 +16,23 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "i1"
-  ui[1]: "12"
-  ui[2]: "i3"
-  ui[3]: "i4"
+  ui[0]: "i0"
+  ui[1]: "i1"
+  ui[2]: "i2"
+  ui[3]: "i3"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: "01"
-  uo[1]: "02"
-  uo[2]: "03"
-  uo[3]: "04"
-  uo[4]: "05"
-  uo[5]: "06"
-  uo[6]: "07"
+  uo[0]: "o0"
+  uo[1]: "o1"
+  uo[2]: "o2"
+  uo[3]: "o3"
+  uo[4]: "o4"
+  uo[5]: "o5"
+  uo[6]: "o6"
   uo[7]: ""
 
   # Bidirectional pins
